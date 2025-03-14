@@ -1,5 +1,4 @@
 use companyDatabase;
-drop table companyInfo;
 create table companyInfo(
  id INT PRIMARY KEY AUTO_INCREMENT,
 companyName VARCHAR(100) default "CompanyName",

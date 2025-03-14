@@ -1,5 +1,4 @@
 use companyDatabase;
-drop table customerInformation;
 CREATE TABLE customerInformation (
     id INT PRIMARY KEY AUTO_INCREMENT,
     first_name VARCHAR(50) DEFAULT "John",
@@ -13,6 +12,7 @@ CREATE TABLE customerInformation (
     occupation VARCHAR(50) DEFAULT "N/A",
     age SMALLINT NOT NULL,
     calendarEvents VARCHAR(250) DEFAULT "N/A",
+    emailEvent VARCHAR(500) DEFAULT "N/A",
     interests VARCHAR(250) DEFAULT "N/A",
     visitedSites VARCHAR(1000) NOT NULL,
     adsClicked INT,
