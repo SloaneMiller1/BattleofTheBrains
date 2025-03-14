@@ -1,5 +1,4 @@
 use companyDatabase;
-drop table orders;
 create table orders(
     OrderID INT PRIMARY KEY AUTO_INCREMENT,
     FKCustomerID INT, -- Add the FKCustomerID column
